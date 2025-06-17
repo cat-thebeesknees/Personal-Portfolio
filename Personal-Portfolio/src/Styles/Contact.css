@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+form {
+  max-width: 50%;
+  margin: 50px auto;
+}
+
+.feedback-input {
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border: 2px solid rgb(138, 121, 104);
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: 0;
+  background: rgb(0, 82, 110);
+}
+
+.feedback-input:focus {
+  border: 2px solid rgb(171, 148, 126);
+}
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize: vertical;
+  background: rgb(0, 82, 110);
+}
+
+[type="submit"] {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  width: 100%;
+  background: rgb(0, 82, 110);
+  border-radius: 5px;
+  border: 2px solid rgb(0, 42, 65);
+  cursor: pointer;
+  color: rgb(138, 121, 104);
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: all 0.3s;
+  margin-top: -4px;
+  font-weight: 700;
+}
+[type="submit"]:hover {
+  background: rgb(171, 148, 126);
+}
+
+h2.contact-heading {
+  color: rgb(138, 121, 104);
+}
+div.contact-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  max-width: 100%;
+}
+
+div#three-container {
+  display: none;
+}
+

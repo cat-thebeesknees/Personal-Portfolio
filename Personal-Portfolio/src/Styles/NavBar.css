@@ -1,0 +1,76 @@
+/* Desktop defaults */
+ul#navUl {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  list-style: none;
+  padding: 5px;
+  margin: 0;
+}
+
+nav#navlinks {
+  position: relative;
+}
+
+.nav-link a {
+  color: floralwhite;
+  font-size: 1.2rem;
+  text-shadow: 1px 1px 1px black;
+  font-weight: bold;
+  margin-right: 1.5rem;
+  text-decoration: none;
+  
+}
+
+/* Hamburger menu hidden by default */
+.hamburger {
+  display: none;
+  cursor: pointer;
+  flex-direction: column;
+  gap: 4px;
+  padding: 10px;
+}
+
+.hamburger .bar {
+  width: 25px;
+  height: 3px;
+  background-color: floralwhite;
+  transition: 0.3s ease;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+  }
+
+  ul#navUl {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 45px;
+    left: 0;
+    background-color: #333;
+    width: 100%;
+    padding: 1rem;
+  }
+
+  ul#navUl.open {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: flex-start;
+    background: linear-gradient(45deg, black, transparent);
+    margin-top: 2rem;
+  }
+
+  .nav-link {
+    margin-bottom: 1rem;
+  }
+
+  .nav-link a {
+    font-size: 1rem;
+  }
+}

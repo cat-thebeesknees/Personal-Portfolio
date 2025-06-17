@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Explora&display=swap");
+
+h2#resume-heading {
+  color: #48cae4;
+  margin-top: 1.5rem;
+}
+
+.creds-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: space-evenly;
+  align-items: center;
+
+  min-width: -moz-fit-content;
+  /* Optional fallback for better cross-browser support */
+  min-width: -webkit-fit-content;
+  min-width: fit-content;
+
+  margin: 10px;
+  padding: 10px;
+  overflow: visible;
+  background-color: #1b1b1b;
+  box-shadow: 0 0 10px #48cae4;
+  transition: all 0.5s ease-in-out;
+}
+
+.comment-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: flex-start;
+  align-items: center;
+
+  min-width: -moz-fit-content;
+  /* Optional fallback for better cross-browser support */
+  min-width: -webkit-fit-content;
+  min-width: fit-content;
+
+  margin: 10px;
+  padding: 10px;
+  overflow: visible;
+  background-color: #1b1b1b;
+  box-shadow: 0 0 10px #48cae4;
+  transition: all 0.5s ease-in-out;
+}
+
+.resume-labels {
+  color: #48cae4;
+  font-size: larger;
+  font-weight: bold;
+  font-family: cursive;
+  align-self: center;
+}
+
+.resume-comments {
+  color: #ade8f4;
+  font-size: larger;
+  font-weight: 500;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: italic;
+}
+
+ul#resume-icon {
+  display: contents;
+}
+
+ul#reviews-icon {
+  list-style: none;
+}
+
+.grand-hotel-regular {
+  font-family: "Grand Hotel", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poiret-one-regular {
+  font-family: "Poiret One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.explora-regular {
+  font-family: "Explora", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.petit-formal-script-regular {
+  font-family: "Petit Formal Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.playwrite-ng-modern-review-two {
+  font-family: "Playwrite NG Modern", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#reviews-icon .review-item-one {
+  color: #caf0f8;
+  font-family: "Poiret One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#reviews-icon .review-item-two {
+  color: #ead2ac;
+
+  font-family: "Playwrite NG Modern", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#reviews-icon .review-item-three {
+  color: #caf0f8;
+  font-family: "Explora", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 2rem;
+}
+
+#reviews-icon .review-item-four {
+  color: #ead2ac;
+  font-family: "Grand Hotel", cursive;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.7rem;
+}
+
+#reviews-icon .review-item-five {
+  color: #caf0f8;
+  font-family: "Petit Formal Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#reviews-icon li {
+  padding: 0.8rem;
+}

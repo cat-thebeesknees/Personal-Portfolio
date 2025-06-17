@@ -1,0 +1,91 @@
+/*media links*/
+
+ul.socials li {
+  list-style-type: none;
+  text-decoration: none;
+  vertical-align: top;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.bi {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  position: absolute;
+  float: right;
+  padding: 5px;
+  font-size: 30px;
+  vertical-align: top;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 50%;
+  text-align: webkit-match-parent;
+}
+
+.row-2 {
+  display: contents;
+}
+
+.bi-discord {
+  color: aquamarine;
+  position: relative;
+}
+
+.bi-github {
+  position: relative;
+  color: fuchsia;
+}
+
+.bi-linkedin {
+  position: relative;
+  color: royalblue;
+}
+
+.bi-envelope {
+  position: relative;
+  color: coral;
+}
+
+a:hover,
+a:active {
+  background-color: black;
+  color: white;
+}
+
+ul.socials {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  justify-content: flex-end;
+  align-items: center;
+  padding-left: 0;
+  padding-bottom: 0;
+}
+
+div#socials-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  justify-content: flex-end;
+  align-items: center;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  align-self: center;
+  justify-self: center;
+  place-self: flex-end;
+}
+
+@media (max-width: 480px) {
+  #socials-container ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  ul.socials {
+    display: flex;
+  }
+}

@@ -1,0 +1,25 @@
+img#logo-img {
+  display: grid;
+  border: solid 3px white;
+  place-self: center;
+  width: 280;
+  height: 180;
+}
+
+
+div.header-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  margin: 2rem;
+}
+
+@media (max-width: 480px) {
+  div.header-container {
+    justify-content: center;
+  }
+}
