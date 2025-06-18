@@ -2,7 +2,7 @@
   "name": "personal-portfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://cat-thebeesknees.github.io/Personal-Portfolio/",
+  "homepage": "https://cat-thebeesknees.github.io/Personal-Portfolio",
   "type": "module",
   "scripts": {
     "dev": "vite",
