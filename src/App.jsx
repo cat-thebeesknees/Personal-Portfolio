@@ -1,5 +1,5 @@
 import "./App.css";
-import RoutePaths from "./Components/RoutePaths";
+import RoutePaths from "../src/Components/RoutePaths";
 
 function App() {
   return (
