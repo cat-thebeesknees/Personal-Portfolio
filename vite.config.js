@@ -5,8 +5,8 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   plugins: [react()],
   assetsInclude: ["**/*.docx"],
+  base: "/Personal-Portfolio/",
   build: {
     outDir: "dist",
   },
-  base: "/Personal-Portfolio/",
 });
